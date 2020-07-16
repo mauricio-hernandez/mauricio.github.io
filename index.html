@@ -242,6 +242,14 @@
         right: 0px;
         opacity: 0.3;
       }
+      .nama{
+        position: absolute;
+        font-size: 10px;
+        color: #FFFFFF;
+        bottom: 10px;
+        right: 0px;
+        opacity: 0.3;
+      }
       @keyframes animate{
         0%{
           transform: translateY(0) rotate(0deg);
@@ -346,7 +354,7 @@
         </div> 
         <div class="custom-control custom-radio">
           <input type="radio" class="custom-control-input" id="customRadio9" name="example1">
-          <label class="custom-control-label" for="customRadio9">RGB Gaming :v</label>
+          <label class="custom-control-label" for="customRadio9">RGB Gaming</label>
         </div> 
         <input class="btn mt-3" id="color-picker" value='#0079FF' onclick="onClickWarna()" />
     </div>
@@ -872,13 +880,13 @@
         S=s;
 
         if (H<5){
-          txt='Have a Good Night:)';
+          txt='Good Morning Nadila:)';
           if(txt != txt2 && !starting)
             document.getElementById("quote").innerHTML = txt;
           txt2=txt;
         }
         else if(H<9){
-          txt='Good Morning Nadila:)';
+          txt='Good Morning Nadila:) Selamat Beraktivitas';
           if(txt != txt2 && !starting)
             document.getElementById("quote").innerHTML = txt;
           txt2=txt;
@@ -895,13 +903,13 @@
             document.getElementById("quote").innerHTML = txt;
           txt2=txt;
         }
-        else if(H<19){
+        else if(H<18){
           txt='Good Afternoon, Take a Rest:)';
           if(txt != txt2 && !starting)
             document.getElementById("quote").innerHTML = txt;
           txt2=txt;
         }
-        else if(H<23){
+        else if(H<21){
           txt='Good Evening Sweetie:)';
           if(txt != txt2 && !starting)
             document.getElementById("quote").innerHTML = txt;
